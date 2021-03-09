@@ -1,10 +1,13 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
+const fs = require('fs');
 
 // TODO: Create an array of questions for user input
-console.log('Hello, welcome to your README generator')
-inquirer
 
+// what message user sees first
+console.log('Hello, welcome to your README generator')
+
+//questions array
 const questions = [
   { 
     type: 'input',
@@ -66,11 +69,18 @@ const questions = [
     message:'What does the user need to know about contributing to the repo?',
     name: 'contribution',
   },
+  
 ];
-inquirer.prompt(questions)
+
+//prompts user
+inquirer.prompt(questions).then(answers)
+
+
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  fs.writeFile()
+}
 
 // TODO: Create a function to initialize app
 function init() {}
