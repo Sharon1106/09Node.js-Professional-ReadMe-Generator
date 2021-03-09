@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+
 // TODO: Create an array of questions for user input
 
 // what message user sees first
@@ -72,6 +73,12 @@ const questions = [
   
 ];
 
+//generate md file
+function generateMD(data) {
+  return `
+ # $
+  `; 
+}
 
 
 
@@ -97,7 +104,7 @@ function init() {
   //when node is ran run  prompt
   inquirer.prompt(questions)
   .then(function(data) {
-    //write data to file,         //generate MD function
+    //write data to file,         //generate MD functionx
     writeToFile("testREADME.md", generateMD(data));
   })
 }
