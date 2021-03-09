@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMD = require('./generateMarkdown')
 
 
 // TODO: Create an array of questions for user input
@@ -56,7 +57,7 @@ const questions = [
   {
     type: 'input',
     message:'What command should be run to run tests?',
-    name: 'test',
+    name: 'tests',
   },  
 
   {
@@ -73,20 +74,11 @@ const questions = [
   
 ];
 
-//generate md file
-function generateMD(data) {
-  return `
- # $
-  `; 
-}
-
-
-
 
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-  //folder for readme
+  //folder for readme 
   fs.writeFile("./test/" + fileName, data,
   //function to catch errors
   function(err){
@@ -94,7 +86,7 @@ function writeToFile(fileName, data) {
       return console.log(err);
       //else
     } else {
-      console.log("Succesfully generated: " + fileName);
+      console.log("Succesfully created: " + fileName);
     }
   })
 }
@@ -104,7 +96,7 @@ function init() {
   //when node is ran run  prompt
   inquirer.prompt(questions)
   .then(function(data) {
-    //write data to file,         //generate MD functionx
+    //write data to file,        
     writeToFile("testREADME.md", generateMD(data));
   })
 }
