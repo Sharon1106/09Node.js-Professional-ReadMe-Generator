@@ -2,8 +2,8 @@
 const inquirer = require('inquirer');
 
 // TODO: Create an array of questions for user input
-
-const questions = ([
+inquirer
+const questions = [
   { 
     type: 'input',
     message: "What is the authors name?",
@@ -65,7 +65,8 @@ const questions = ([
   name: 'contribution',
   },
 
-]);
+];
+
 console.log(questions)
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
