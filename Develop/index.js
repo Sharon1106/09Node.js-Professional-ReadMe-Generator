@@ -72,8 +72,8 @@ const questions = [
   
 ];
 
-//prompts user
-inquirer.prompt(questions).then(answers)
+
+
 
 
 
@@ -93,7 +93,14 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  //when node is ran run  prompt
+  inquirer.prompt(questions)
+  .then(function(data) {
+    //write data to file,         //generate MD function
+    writeToFile("testREADME.md", generateMD(data));
+  })
+}
 
 // Function call to initialize app
 init();
