@@ -79,7 +79,17 @@ inquirer.prompt(questions).then(answers)
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-  fs.writeFile()
+  //folder for readme
+  fs.writeFile("./test/" + fileName, data,
+  //function to catch errors
+  function(err){
+    if (err) {
+      return console.log(err);
+      //else
+    } else {
+      console.log("Succesfully generated: " + fileName);
+    }
+  })
 }
 
 // TODO: Create a function to initialize app
