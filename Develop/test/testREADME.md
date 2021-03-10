@@ -1,11 +1,11 @@
 
   
-  # README Genereator 
+  #  
   
-  [![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Description
-  A node app to generate a readme.md file for repositories
+  
 
   ## Table of Contents
 
@@ -18,23 +18,23 @@
   * [Questions](#Questions)
   
   ## Installation
-  Installation instructions: npm install
+  Installation instructions: 
 
   ## Usage 
-  make sure to in the index.js folder when running node index.js
+  
 
   ## Built with
-  node.js fs and inquirer npms
+  
 
   ## Contribution
-  na
+  
 
   ## Tests
-  na
+  
 
   ## License 
-  This project is licensed under: ECLIPSE 1.0 | https://opensource.org/licenses/EPL-1.0
+  This project is licensed under: APACHE 2.0 | https://opensource.org/licenses/Apache-2.0
 
   ### Questions?
-  You can visit [GitHub](https://github.com/Sharon1106)
-  For any additional questions you can contact Sharon Martinez at [Email](martinezsharonr@gmail.com)
+  You can visit [GitHub](https://github.com/kdsahjfv)
+  For any additional questions you can contact sakdjgfb at [Emaill]<martinezsharonr@gmail.com>

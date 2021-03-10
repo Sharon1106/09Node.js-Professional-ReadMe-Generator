@@ -136,7 +136,7 @@ function generateMarkdown(data) {
 
   ### Questions?
   You can visit [GitHub](https://github.com/${data.username})
-  For any additional questions you can contact ${data.author} at [Email](${data.email})
+  For any additional questions you can contact ${data.author} at <${data.email}>
 `;
 }
 
