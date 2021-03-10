@@ -1,7 +1,4 @@
 # Node.js-Professional-ReadMe-Generator
-
-  ## Description
-  A node.js application ran from the terminal to recieve user input and generates a professional README.md file for your projects
   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
   [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
   [![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
@@ -9,6 +6,9 @@
   [![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
   [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  ## Description
+  A node.js application ran from the terminal to recieve user input and generates a professional README.md file for your projects
+
   
   ## User Story
 
