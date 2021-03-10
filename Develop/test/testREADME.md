@@ -1,11 +1,11 @@
 
   
-  # readme generator 
+  # README Generator 
   
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Description
-  done
+  An application used to make a professional raead
 
   ## Table of Contents
 
@@ -17,13 +17,13 @@
   * [Questions](#Questions)
   
   ## Installation
-  Installation instructions: jsdkj
+  Installation instructions: 
 
   ## Usage 
   
 
   ## Built with
-  inquirer fs
+  
 
   ## Contribution
   
@@ -32,9 +32,7 @@
   
 
   ## License 
-  This project is licensed under:MIT https://opensource.org/licenses/MIT
+  This project is licensed under: APACHE 2.0 | https://opensource.org/licenses/Apache-2.0
 
-  # Questions?
-  GitHub: https://github.com/sharon1106
-
-  For any additional questions you can contact sharon directly at <martinezsharonr@gmail.com>
+  ### Questions?
+  You can contact Sharon at [GitHub](https://github.com/sharon1106) or directly @ [Email](martinezsharonr@gmail.com)

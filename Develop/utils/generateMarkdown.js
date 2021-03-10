@@ -2,6 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   let licenseBadge;
+
   switch (license) {
 
     case "APACHE 2.0":
@@ -31,7 +32,7 @@ function renderLicenseBadge(license) {
     case "MIT":
       licenseBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
       return licenseBadge
-      
+
     //default 
     default:
       licenseBadge = "N/A"
@@ -44,6 +45,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   let licenseLink = "";
+
   switch (license) {
 
     case "APACHE 2.0":
@@ -132,9 +134,8 @@ function generateMarkdown(data) {
   This project is licensed under: ${data.license} | ${renderLicenseLink(data.license)}
 
   ### Questions?
-  GitHub: https://github.com/${data.username}
-
-  For any additional questions you can contact ${data.author} directly at <${data.email}>
+  YOu can visit [GitHub](https://github.com/${data.username})
+  For any additional questions you can contact ${data.author} at [Email](${data.email})
 `;
 }
 
