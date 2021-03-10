@@ -16,7 +16,7 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `
   
-  # ${data.title}
+  # ${data.title} 
 
   # Description
   ${data.description}
@@ -49,7 +49,7 @@ function generateMarkdown(data) {
   ${data.license}
 
   # Questions?
-  Visit my GitHub: ${data.username}
+  Visit my GitHub: https://github.com/${data.username}
 
   For any additional questions you can contact me directly at:  <${data.email}>
 `;
