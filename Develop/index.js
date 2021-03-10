@@ -1,8 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-//NOT RECOGNIZING MODULE
 const generateMarkdown = require('./utils/generateMarkdown')
+
 
 
 // TODO: Create an array of questions for user input
@@ -51,7 +51,7 @@ const questions = [
     type: 'list',
     message: 'What kind of license do you want for your project?',
     name: 'license',
-    choices: ['APACHE 2.0','BSD 3', 'ECLIPSE 1.0','GPL V3','IBM 1.0','MIT','NONE'],
+    choices: ['APACHE 2.0','BSD 3', 'ECLIPSE 1.0','GPL V3','IBM 1.0', 'ISC','MIT','N/A'],
   },
 
   {
