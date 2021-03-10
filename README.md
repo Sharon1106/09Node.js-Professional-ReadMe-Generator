@@ -20,12 +20,10 @@
   * [Usage](#Usage)
   * [Built with](#Built-with)
   * [License](#License)
-  * [Contribution](#Contribution)
-  * [Tests](#Tests)
   * [Questions](#Questions)
   
   ## Installation
-  Installation instructions: npm install
+  Installation instructions: Once repo is cloned, run npm install.
 
   ## Usage 
   https://drive.google.com/file/d/17yQDT-8Dp32MR_QVlkkC5WbKzw5FgfTq/view
