@@ -9,6 +9,7 @@
   ## Description
   A node.js application ran from the terminal to recieve user input and generates a professional README.md file for your projects
 
+![NOde](https://user-images.githubusercontent.com/30086519/110589488-5683ff00-812b-11eb-998e-2f429272d967.png)
   
   ## User Story
 
