@@ -41,7 +41,12 @@ const questions = [
     message:'Please write a brief description of your project:',
     name: 'description',
   },
+  {
+    type: 'input',
+    message: 'What tools did you use for this project?',
+    name: 'tools',
 
+  },
   {
     type: 'list',
     message: 'What kind of license do you want for your project?',
