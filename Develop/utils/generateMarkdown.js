@@ -3,33 +3,35 @@
 function renderLicenseBadge(license) {
   let licenseBadge;
   switch (license) {
+
     case "APACHE 2.0":
-      licenseBadge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)]"
+      licenseBadge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
       return licenseBadge
       
     case "BSD 3":
-      licenseBadge = "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)]"
+      licenseBadge = "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
       return licenseBadge
 
     case "ECLIPSE 1.0":
-      licenseBadge = "[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)]"
+      licenseBadge = "[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)"
       return licenseBadge
 
     case "GPL V3":
-      licenseBadge = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)]"
+      licenseBadge = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
       return licenseBadge
 
     case "IBM 1.0":
-      licenseBadge = "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)]"
+      licenseBadge = "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)"
       return licenseBadge
 
     case "ISC":
-      licenseBadge = "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)]"
+      licenseBadge = "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)"
       return licenseBadge
 
     case "MIT":
-      licenseBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)]"
+      licenseBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
       return licenseBadge
+      
     //default 
     default:
       licenseBadge = "N/A"
@@ -41,6 +43,41 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
+  let licenseLink = "";
+  switch (license) {
+
+    case "APACHE 2.0":
+      licenseLink = "https://opensource.org/licenses/Apache-2.0"
+      return licenseLink
+      
+    case "BSD 3":
+      licenseLink = "https://opensource.org/licenses/BSD-3-Clause"
+      return licenseLink
+
+    case "ECLIPSE 1.0":
+      licenseLink = "https://opensource.org/licenses/EPL-1.0"
+      return licenseLink
+
+    case "GPL V3":
+      licenseLink = "https://www.gnu.org/licenses/gpl-3.0"
+      return licenseLink
+
+    case "IBM 1.0":
+      licenseLink = "https://opensource.org/licenses/IPL-1.0"
+      return licenseLink
+
+    case "ISC":
+      licenseLink = "https://opensource.org/licenses/ISC"
+      return licenseLink
+
+    case "MIT":
+      licenseLink = "https://opensource.org/licenses/MIT"
+      return licenseLink
+    //default 
+    default:
+      licenseLink = "N/A"
+      return licenseLink  
+  }
 
 }
 
@@ -57,6 +94,7 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+
   return `
   
   # ${data.title} 
@@ -91,9 +129,9 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## License 
-  This project is licensed under:  ${data.license}
+  This project is licensed under: ${data.license} | ${renderLicenseLink(data.license)}
 
-  # Questions?
+  ### Questions?
   GitHub: https://github.com/${data.username}
 
   For any additional questions you can contact ${data.author} directly at <${data.email}>

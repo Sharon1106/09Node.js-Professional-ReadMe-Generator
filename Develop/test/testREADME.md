@@ -1,11 +1,11 @@
 
   
-  # asdmhgbf 
+  # readme generator 
   
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)]
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  amhsdf
+  done
 
   ## Table of Contents
 
@@ -17,13 +17,13 @@
   * [Questions](#Questions)
   
   ## Installation
-  Installation instructions: 
+  Installation instructions: jsdkj
 
   ## Usage 
   
 
   ## Built with
-  asdjfb
+  inquirer fs
 
   ## Contribution
   
@@ -32,9 +32,9 @@
   
 
   ## License 
-  This project is licensed under:  APACHE 2.0
+  This project is licensed under:MIT https://opensource.org/licenses/MIT
 
   # Questions?
-  GitHub: https://github.com/sharond1106
+  GitHub: https://github.com/sharon1106
 
-  For any additional questions you can contact Sharon directly at <martifnezsharodnrf>
+  For any additional questions you can contact sharon directly at <martinezsharonr@gmail.com>
