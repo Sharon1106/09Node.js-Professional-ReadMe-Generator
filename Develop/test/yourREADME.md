@@ -36,5 +36,5 @@
   This project is licensed under: APACHE 2.0 | https://opensource.org/licenses/Apache-2.0
 
   ### Questions?
-  You can visit [GitHub](https://github.com/kdsahjfv)
-  For any additional questions you can contact sakdjgfb at [Emaill]<martinezsharonr@gmail.com>
+  You can visit [GitHub](https://github.com/)
+  For any additional questions you can contact  at <>
