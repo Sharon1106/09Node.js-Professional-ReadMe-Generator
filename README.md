@@ -36,4 +36,4 @@
 
   ### Questions?
   You can visit [GitHub](https://github.com/Sharon1106)
-  For any additional questions you can contact Sharon Martinez at [Email](martinezsharonr@gmail.com)
+  For any additional questions you can contact Sharon Martinez at martinezsharonr@gmail.com
