@@ -1,38 +1,40 @@
 
   
-  # README Generator 
+  # Node.js README Generator 
   
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  An application used to make a professional raead
+  A node.js application ran from the terminal to recieve user input and generates a professional README.md file for your projects
 
   ## Table of Contents
 
   * [Installation](#Installation)
   * [Usage](#Usage)
+  * [Built with](#Built-with)
   * [License](#License)
   * [Contribution](#Contribution)
   * [Tests](#Tests)
   * [Questions](#Questions)
   
   ## Installation
-  Installation instructions: 
+  Installation instructions: npm install
 
   ## Usage 
-  
+  After installing go to folder titled index.js and run node index.js
 
   ## Built with
-  
+  Node.js, inquirer npm, fs npm
 
   ## Contribution
-  
+  None for now
 
   ## Tests
-  
+  NA
 
   ## License 
-  This project is licensed under: APACHE 2.0 | https://opensource.org/licenses/Apache-2.0
+  This project is licensed under: MIT | https://opensource.org/licenses/MIT
 
   ### Questions?
-  You can contact Sharon at [GitHub](https://github.com/sharon1106) or directly @ [Email](martinezsharonr@gmail.com)
+  YOu can visit [GitHub](https://github.com/Sharon1106)
+  For any additional questions you can contact Sharon Martinez at [Email](martinezsharonr@gmail.com)

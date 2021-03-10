@@ -110,6 +110,7 @@ function generateMarkdown(data) {
 
   * [Installation](#Installation)
   * [Usage](#Usage)
+  * [Built with](#Built-with)
   * [License](#License)
   * [Contribution](#Contribution)
   * [Tests](#Tests)
@@ -134,7 +135,7 @@ function generateMarkdown(data) {
   This project is licensed under: ${data.license} | ${renderLicenseLink(data.license)}
 
   ### Questions?
-  YOu can visit [GitHub](https://github.com/${data.username})
+  You can visit [GitHub](https://github.com/${data.username})
   For any additional questions you can contact ${data.author} at [Email](${data.email})
 `;
 }
