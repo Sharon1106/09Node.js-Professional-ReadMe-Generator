@@ -1,11 +1,11 @@
 
   
-  # Node.js README Generator 
+  # README Genereator 
   
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
 
   ## Description
-  A node.js application ran from the terminal to recieve user input and generates a professional README.md file for your projects
+  A node app to generate a readme.md file for repositories
 
   ## Table of Contents
 
@@ -21,20 +21,20 @@
   Installation instructions: npm install
 
   ## Usage 
-  After installing go to folder titled index.js and run node index.js
+  make sure to in the index.js folder when running node index.js
 
   ## Built with
-  Node.js, inquirer npm, fs npm
+  node.js fs and inquirer npms
 
   ## Contribution
-  None for now
+  na
 
   ## Tests
-  NA
+  na
 
   ## License 
-  This project is licensed under: MIT | https://opensource.org/licenses/MIT
+  This project is licensed under: ECLIPSE 1.0 | https://opensource.org/licenses/EPL-1.0
 
   ### Questions?
-  YOu can visit [GitHub](https://github.com/Sharon1106)
+  You can visit [GitHub](https://github.com/Sharon1106)
   For any additional questions you can contact Sharon Martinez at [Email](martinezsharonr@gmail.com)

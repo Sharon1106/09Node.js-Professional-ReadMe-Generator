@@ -28,16 +28,10 @@
   Installation instructions: npm install
 
   ## Usage 
-  After installing go to folder titled index.js and run node index.js
+  https://drive.google.com/file/d/17yQDT-8Dp32MR_QVlkkC5WbKzw5FgfTq/view
 
   ## Built with
   Node.js, inquirer npm, fs npm
-
-  ## Contribution
-  None for now
-
-  ## Tests
-  NA
 
   ## License 
   This project is licensed under: MIT | https://opensource.org/licenses/MIT
