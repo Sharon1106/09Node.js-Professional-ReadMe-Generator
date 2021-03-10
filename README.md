@@ -35,5 +35,5 @@
   This project is licensed under: MIT | https://opensource.org/licenses/MIT
 
   ### Questions?
-  You can visit [GitHub](https://github.com/Sharon1106)
+  You can visit [GitHub](https://github.com/Sharon1106)  
   For any additional questions you can contact Sharon Martinez at martinezsharonr@gmail.com
