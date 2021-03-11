@@ -1,10 +1,11 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
+  //licenseBadge variable 
   let licenseBadge;
-
+  // expression is evaluated once 
   switch (license) {
-
+    // if there is a match then return the declared license badge
     case "APACHE 2.0":
       licenseBadge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
       return licenseBadge
@@ -34,8 +35,9 @@ function renderLicenseBadge(license) {
       return licenseBadge
 
     //default 
+    // if its empty return an empty string
     default:
-      licenseBadge = "N/A"
+      licenseBadge = ""
       return licenseBadge  
   }
 
@@ -44,7 +46,7 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  let licenseLink = "";
+  let licenseLink;
 
   switch (license) {
 
@@ -77,7 +79,7 @@ function renderLicenseLink(license) {
       return licenseLink
     //default 
     default:
-      licenseLink = "N/A"
+      licenseLink = ""
       return licenseLink  
   }
 
@@ -132,7 +134,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## License 
-  This project is licensed under: ${data.license} | ${renderLicenseLink(data.license)}
+  This project is licensed under: ${data.license} ${renderLicenseLink(data.license)}
 
   ### Questions?
   You can visit [GitHub](https://github.com/${data.username})
