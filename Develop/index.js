@@ -1,13 +1,13 @@
-// packages needed for this application
+
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown')
 
 
-// what message user sees first
+
 console.log('Hello, welcome to your README generator')
 
-// An array of questions for user input
+
 const questions = [
   { 
     type: 'input',
@@ -79,11 +79,11 @@ const questions = [
 
 
 
-// TODO: Create a function to write README file
+
 function writeToFile(fileName, data) {
-  //we use fs to write file for readme (file path + values)
+
   fs.writeFile("./test/" + fileName, data,
-  //function to catch errors
+
   function(err){
     if (err) {
       return console.log(err);
@@ -94,15 +94,14 @@ function writeToFile(fileName, data) {
   })
 }
 
-// TODO: Create a function to initialize app
+
 function init() {
-  //when node is ran run  prompt
+
   inquirer.prompt(questions)
   .then(function(data) {
-    //write data to file,        
+   
     writeToFile("yourREADME.md", generateMarkdown(data));
   })
 }
 
-// Function call to initialize app
 init();
