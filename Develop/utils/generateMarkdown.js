@@ -1,8 +1,7 @@
 // badges,no license, return an empty string
 function renderLicenseBadge(license) {
-  //licenseBadge variable 
   let licenseBadge;
-  // expression is evaluated once 
+
   switch (license) {
     //is a match, then return the declared license badge
     case "APACHE 2.0":
