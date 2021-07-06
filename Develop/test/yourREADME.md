@@ -2,7 +2,7 @@
   
   #  
   
-  
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Description
   
@@ -33,8 +33,8 @@
   
 
   ## License 
-  This project is licensed under: [N/A]()
+  This project is licensed under: APACHE 2.0 https://opensource.org/licenses/Apache-2.0
 
   ### Questions?
   You can visit [GitHub](https://github.com/)
-  For any additional questions you can contact  at <>
+  For any additional questions you can contact sdjf at <>

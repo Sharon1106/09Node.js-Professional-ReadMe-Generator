@@ -1,11 +1,10 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// badges,no license, return an empty string
 function renderLicenseBadge(license) {
   //licenseBadge variable 
   let licenseBadge;
   // expression is evaluated once 
   switch (license) {
-    // if there is a match then return the declared license badge
+    //is a match, then return the declared license badge
     case "APACHE 2.0":
       licenseBadge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
       return licenseBadge
@@ -35,16 +34,13 @@ function renderLicenseBadge(license) {
       return licenseBadge
 
     //default 
-    // if its empty return an empty string
     default:
       licenseBadge = ""
       return licenseBadge  
   }
-
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+//returns license,no license, returns empty string
 function renderLicenseLink(license) {
   let licenseLink;
 
@@ -82,13 +78,11 @@ function renderLicenseLink(license) {
       licenseLink = ""
       return licenseLink  
   }
-
 }
 
-// TODO: Create a function that returns the license section of README
+//returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-
   if(license) {
     return "License"
   }else {
@@ -96,7 +90,7 @@ function renderLicenseSection(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// generate markdown for README
 function generateMarkdown(data) {
 
   return `
