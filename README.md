@@ -45,7 +45,7 @@
    NA
 
   ## Built with
-  Node.js | Inquirer | fs
+  JavaScript | Node.js | Inquirer | fs
 
   ## License 
   This project is licensed under: MIT | https://opensource.org/licenses/MIT
