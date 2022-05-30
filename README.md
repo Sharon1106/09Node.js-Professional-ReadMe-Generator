@@ -1,4 +1,4 @@
-# Professional ReadMe Generator
+# ReadMe Generator
 
   ## Description
   A node.js application ran from the terminal to recieve user input and generates a professional README.md file for your projects
