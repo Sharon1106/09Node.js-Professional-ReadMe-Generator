@@ -19,37 +19,14 @@
   I WANT a README generator
   SO THAT I can quickly create a professional README for a new project
   ```
-
-  ## Table of Contents
-
-  * [Installation](#Installation)
-  * [Usage](#Usage)
-  * [Built with](#Built-with)
-  * [License](#License)
-  * [Contribution](#Contribution)
-  * [Tests](#Tests)
-  * [Questions](#Questions)
-  
   ## Installation
   Installation instructions: Once repo is cloned, run npm install. Go to Develop folder, run node index.js and answer questions. 
 
   ## Usage 
-  Watch this video!
-  https://drive.google.com/file/d/17yQDT-8Dp32MR_QVlkkC5WbKzw5FgfTq/view
-  ![NOde](https://user-images.githubusercontent.com/30086519/110589488-5683ff00-812b-11eb-998e-2f429272d967.png)
-  
+![Untitled_-Mar-9_-2021-10_12-PM](https://user-images.githubusercontent.com/30086519/179386690-5fef0ff1-efb6-4c3e-b4b2-c34e9d1077bd.gif)
+
    ## Contribution
    Allowed
   
-  ## Tests
-   NA
-
   ## Built with
   JavaScript | Node.js | Inquirer | fs
-
-  ## License 
-  This project is licensed under: MIT | https://opensource.org/licenses/MIT
-
-  ### Questions?
-  You can visit: [GitHub](https://github.com/Sharon1106)  
-  For any additional questions you can contact Sharon Martinez at martinezsharonr@gmail.com
