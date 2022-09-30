@@ -1,7 +1,7 @@
 # ReadMe Generator
 
   ## Description
-  A node.js application ran from the terminal to recieve user input and generates a professional README.md file for your projects
+  A node.js terminal application recieves user input and generates professional README.md files for repository documentation.
 
 ### Available Badges
   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
